@@ -21,4 +21,7 @@ end
 difs = setdiff(qids, Qid);
 MTRX(:, difs) = [];
 
-
+X = 1:100;
+for i = 1:length(X)
+v = x / i;
+end
